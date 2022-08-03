@@ -110,6 +110,11 @@ footer {
     background-color: var(--color1);
     margin: 15px auto 30px;
 }
+/*Процесс обучения*/
+.learning h5 {
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
 /*Программа курса*/
 .accordion-button:not(.collapsed) {
     color: var(--bs-white);
