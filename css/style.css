@@ -86,7 +86,7 @@ footer {
     border: 3px solid var(--color1);
 }
 /*Разные разности*/
-.about, .sheduler {
+.about, .sheduler, .author {
     background-color: #eee;
 }
 
@@ -109,6 +109,13 @@ footer {
     height: 3px;
     background-color: var(--color1);
     margin: 15px auto 30px;
+}
+/*Обавторе*/
+.author {
+    padding-bottom: 0;
+}
+.itd_img {
+    max-width: 260px;
 }
 /*Процесс обучения*/
 .learning h5 {
