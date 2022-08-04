@@ -3,8 +3,6 @@
     --color2: #52339a;
 }
 
-header,
-footer,
 section {
     padding: 100px 0;
 
@@ -86,7 +84,7 @@ footer {
     border: 3px solid var(--color1);
 }
 /*Разные разности*/
-.about, .sheduler, .author {
+.about, .sheduler, .author, .buy {
     background-color: #eee;
 }
 
@@ -110,6 +108,11 @@ footer {
     background-color: var(--color1);
     margin: 15px auto 30px;
 }
+/*Отзывы*/
+.rounded {
+    border-radius: 50% !important;
+    border: 3px solid var(--color1);
+}
 /*Обавторе*/
 .author {
     padding-bottom: 0;
@@ -121,6 +124,10 @@ footer {
 .learning h5 {
     padding: 25px;
     border: 3px solid var(--color1);
+}
+/*Подвал*/
+footer {
+    padding: 30px 0;
 }
 /*Программа курса*/
 .accordion-button:not(.collapsed) {
